@@ -3,8 +3,9 @@
     "description": "page analys",
     "autoload": {
         "psr-4": {
-            "Hexlet\\Code\\": "src/"
-        }
+            "PageAnalyzer\\": "src/"
+        },
+        "files": ["src/UrlNormalizer.php"]
     },
     "authors": [
         {
