@@ -1,0 +1,37 @@
+{
+    "name": "hexlet/code",
+    "description": "page analys",
+    "autoload": {
+        "psr-4": {
+            "Hexlet\\Code\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Yakanaro",
+            "email": "kipaherd@gmail.com"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.6",
+        "slim/http": "^1.3",
+        "slim/php-view": "^3.2",
+        "php-di/php-di": "^7.0",
+        "twbs/bootstrap": "^5.2",
+        "nesbot/carbon": "^2.66",
+        "vlucas/valitron": "^1.4",
+        "slim/flash": "^0.4.0",
+        "guzzlehttp/guzzle": "^7.5",
+        "imangazaliev/didom": "^2.0",
+        "twig/twig": "^3.5",
+        "slim/twig-view": "^3.3",
+        "illuminate/support": "^9.49",
+        "twig/html-extra": "^3.5"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "squizlabs/php_codesniffer": "^3.7",
+        "symfony/var-dumper": "^6.2"
+    }
+}
