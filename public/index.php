@@ -131,6 +131,8 @@ $app->get('/urls/{id:[0-9]+}', function ($request, $response, array $args) {
 $app->get('/urls', function ($request, $response) {
     $urls = $this->get('urlRepository')->all();
     $checks = $this->get('urlCheckRepository')->getDistinct();
+    //$groupedChecks = collect($checks)->keyBy('url_id')->toArray();
+    /** @var array<int, int> $checks */
     $groupedChecks = collect($checks)->keyBy('url_id')->toArray();
 
     $params = [
